@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import TheCatUI
 
-class MainTabBarViewController: UIViewController {
+
+class MainTabBarViewController: UITabBarController, UITabBarControllerDelegate, NavigationBarStyle {
+
+    @IBOutlet weak var tabBarMenu: UITabBar!
 
     var output: MainTabBarViewOutput!
 
@@ -17,10 +21,9 @@ class MainTabBarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-	    // TODO: View set up code goes here. Please remove this comment.
-
+        selectedIndex = 0
         output.viewIsReady()
+        tabBarMenu.tintColor = TCColors.blue
     }
 }
 

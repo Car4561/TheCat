@@ -7,4 +7,6 @@
 //
 
 protocol BreedsHomeInteractorInput {
+    func getBreedsList()
+    func saveBreed(breed: Breed, voting: Voting)
 }

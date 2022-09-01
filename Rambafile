@@ -1,0 +1,27 @@
+### Headers settings
+company: Carlos Lorena
+
+### Xcode project settings
+project_name: TheCat
+xcodeproj_path: TheCat.xcodeproj
+
+# Needed for @testable import in tests. Should be the same as "project_target"
+product_module_name: TheCat
+
+### Code generation settings section
+# The main project target name
+project_target: TheCat
+
+### Tests generation settings section
+# The tests target name
+test_target: TheCatUITests
+
+# The file path for new modules
+project_file_path: /TheCat/Features/Post/Modules
+
+# The file path for new tests
+test_file_path: /TheCat Tests/Features/Post/Modules
+
+### Templates
+templates:
+- {name: thecat_viper}

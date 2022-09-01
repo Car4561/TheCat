@@ -7,4 +7,5 @@
 //
 
 protocol CatsHomeInteractorInput {
+    func getCatsList()
 }

@@ -5,4 +5,7 @@
 //  Created by Carlos Alfredo Llerena Huayta on 29/08/22.
 //
 
-import Foundation
+enum Host {
+    
+    static let baseUrl = "https://api.thecatapi.com/v1/"
+}

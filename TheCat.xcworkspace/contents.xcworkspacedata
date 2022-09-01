@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TheCatNetworking">
+   </FileRef>
+   <FileRef
+      location = "group:TheCatUI">
+   </FileRef>
+   <FileRef
+      location = "group:TheCat.xcodeproj">
+   </FileRef>
+</Workspace>

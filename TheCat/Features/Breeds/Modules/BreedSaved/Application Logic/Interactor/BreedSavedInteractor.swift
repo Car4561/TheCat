@@ -9,4 +9,10 @@
 class BreedSavedInteractor: BreedSavedInteractorInput {
 
     weak var output: BreedSavedInteractorOutput!
+    
+    func getBreedsSavedList() {
+       let breedsSavedList = CoreDataManager.shared.fetchBreeds()
+       guard let breedsSavedList = breedsSavedList else { return }
+       output.didFetchBreedsSaved(breedsSavedList)
+    }
 }

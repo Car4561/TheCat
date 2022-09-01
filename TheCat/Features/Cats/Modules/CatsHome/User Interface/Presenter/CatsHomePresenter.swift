@@ -28,6 +28,7 @@ extension CatsHomePresenter: CatsHomeModuleInput {
 extension CatsHomePresenter: CatsHomeViewOutput {
 
     func viewIsReady() {
+        interactor.getCatsList()
     }
 }
 
@@ -35,4 +36,8 @@ extension CatsHomePresenter: CatsHomeViewOutput {
 // MARK: CatsHomeInteractorOutput methods
 
 extension CatsHomePresenter: CatsHomeInteractorOutput {
+
+    func didFetchCats(_ catsList: [Cat]) {
+        view.setCatsList(catsList)
+    }
 }

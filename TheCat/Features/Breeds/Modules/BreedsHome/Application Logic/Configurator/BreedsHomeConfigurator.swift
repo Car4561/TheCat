@@ -18,7 +18,8 @@ class BreedsHomeModuleConfigurator {
     private func configure(viewController: BreedsHomeViewController) {
 
         let router = BreedsHomeRouter()
-
+        router.viewController = viewController
+        
         let presenter = BreedsHomePresenter()
         presenter.view = viewController
         presenter.router = router

@@ -28,6 +28,7 @@ extension BreedSavedPresenter: BreedSavedModuleInput {
 extension BreedSavedPresenter: BreedSavedViewOutput {
 
     func viewIsReady() {
+        interactor.getBreedsSavedList()
     }
 }
 
@@ -35,4 +36,8 @@ extension BreedSavedPresenter: BreedSavedViewOutput {
 // MARK: BreedSavedInteractorOutput methods
 
 extension BreedSavedPresenter: BreedSavedInteractorOutput {
+
+    func didFetchBreedsSaved(_ breedsSavedList: [BreedData]) {
+        view.setBreedSavedList(breedsSavedList)
+    }
 }

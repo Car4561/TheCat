@@ -28,6 +28,15 @@ extension BreedsHomePresenter: BreedsHomeModuleInput {
 extension BreedsHomePresenter: BreedsHomeViewOutput {
 
     func viewIsReady() {
+        interactor.getBreedsList()
+    }
+    
+    func breedVoting(breed: Breed, voting: Voting) {
+        interactor.saveBreed(breed: breed, voting: voting)
+    }
+    
+    func didTapSavedButton() {
+        router.routeToBreedSaved()
     }
 }
 
@@ -35,4 +44,8 @@ extension BreedsHomePresenter: BreedsHomeViewOutput {
 // MARK: BreedsHomeInteractorOutput methods
 
 extension BreedsHomePresenter: BreedsHomeInteractorOutput {
+
+    func didFetchBreeds(_ breedsList: [Breed]) {
+        view.setBreedList(breedsList)
+    }
 }

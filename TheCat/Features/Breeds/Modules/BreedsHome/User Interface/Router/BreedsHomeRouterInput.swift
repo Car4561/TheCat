@@ -7,4 +7,5 @@
 //
 
 protocol BreedsHomeRouterInput {
+    func routeToBreedSaved()
 }

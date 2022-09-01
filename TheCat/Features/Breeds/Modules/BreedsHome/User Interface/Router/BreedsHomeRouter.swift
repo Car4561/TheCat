@@ -6,5 +6,13 @@
 //  Copyright © 2022 Carlos Lorena. All rights reserved.
 //
 
-class BreedsHomeRouter: BreedsHomeRouterInput {
+class BreedsHomeRouter: BreedsHomeRouterInput, Routable {
+
+    var viewController: BreedsHomeViewController!
+
+    func routeToBreedSaved() {
+        pushViewController(withIdentifer: BreedSavedViewController.storyboardIdentifier,
+                           in: .breeds,
+                           from: viewController)
+    }
 }

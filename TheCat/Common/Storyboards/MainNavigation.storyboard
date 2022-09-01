@@ -1,30 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17150" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rSS-ey-jMH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17122"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="s0d-6b-0kx">
+        <!--Main Tab Bar View Controller-->
+        <scene sceneID="nrr-2h-L6z">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tabBarController storyboardIdentifier="MainTabBarViewController" id="rSS-ey-jMH" customClass="MainTabBarViewController" customModule="TheCat" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ABP-bS-Nus"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cGz-YV-qw8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <outlet property="tabBarMenu" destination="cGz-YV-qw8" id="vhp-wQ-JSg"/>
+                        <segue destination="eJ1-Kw-6Of" kind="relationship" relationship="viewControllers" id="Cfo-GY-hqc"/>
+                        <segue destination="GTS-pe-Y25" kind="relationship" relationship="viewControllers" id="T8z-q7-zeb"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L9i-pn-shv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="TVa-qH-5sD" customClass="MainTabBarModuleInitializer" customModule="TheCat" customModuleProvider="target">
+                    <connections>
+                        <outlet property="mainTabBarViewController" destination="rSS-ey-jMH" id="qef-m3-Re6"/>
+                    </connections>
+                </customObject>
             </objects>
+            <point key="canvasLocation" x="891" y="846"/>
+        </scene>
+        <!--Gatos-->
+        <scene sceneID="qOn-fV-7n8">
+            <objects>
+                <navigationController id="eJ1-Kw-6Of" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Gatos" image="cat" id="ckc-Hc-NTR"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9aG-yt-vMr">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yu7-dg-Voc" kind="relationship" relationship="rootViewController" id="oeG-vk-1TF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yoJ-Vc-NEY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1829" y="60"/>
+        </scene>
+        <!--CatsHomeViewController-->
+        <scene sceneID="90m-zg-4RA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Cats" referencedIdentifier="CatsHomeViewController" id="yu7-dg-Voc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="InV-dF-Tme"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZgN-Yy-zQd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2888" y="60"/>
+        </scene>
+        <!--Razas-->
+        <scene sceneID="3jT-OY-ZcD">
+            <objects>
+                <navigationController id="GTS-pe-Y25" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Razas" image="breed" id="Aff-5o-VS6"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="R5D-0j-PY5">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="xPX-ZC-K1h" kind="relationship" relationship="rootViewController" id="QtM-n4-bIJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WKo-8c-jOR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1880" y="846"/>
+        </scene>
+        <!--BreedsHomeViewController-->
+        <scene sceneID="1HW-Rz-Ro1">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Breeds" referencedIdentifier="BreedsHomeViewController" id="xPX-ZC-K1h" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="VmA-nW-SVz"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O1K-DN-BI2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2938" y="846"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="breed" width="24" height="24"/>
+        <image name="cat" width="24" height="24"/>
     </resources>
 </document>

@@ -9,4 +9,6 @@
 protocol BreedsHomeViewOutput {
 
     func viewIsReady()
+    func breedVoting(breed: Breed, voting: Voting)
+    func didTapSavedButton()
 }

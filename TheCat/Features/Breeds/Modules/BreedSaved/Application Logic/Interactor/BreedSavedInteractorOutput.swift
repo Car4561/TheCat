@@ -7,4 +7,5 @@
 //
 
 protocol BreedSavedInteractorOutput: AnyObject {
+    func didFetchBreedsSaved(_ breedsSavedList: [BreedData])
 }

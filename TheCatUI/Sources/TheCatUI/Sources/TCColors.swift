@@ -15,6 +15,9 @@ public enum TCColors {
         
         static let red = "red"
         static let blue = "blue"
+        static let white = "white"
+        static let whiteBackground = "whiteBackground"
+
     }
 
 
@@ -22,4 +25,6 @@ public enum TCColors {
 
     public static let red = UIColor.loadColor(named: Name.red)
     public static let blue = UIColor.loadColor(named: Name.blue)
+    public static let white = UIColor.loadColor(named: Name.white)
+    public static let whiteBackground = UIColor.loadColor(named: Name.whiteBackground)
 }

@@ -5,4 +5,7 @@
 //  Created by Carlos Alfredo Llerena Huayta on 29/08/22.
 //
 
-import Foundation
+public protocol Resource {
+    
+    var resource: (method: HTTPMethod, route: String) { get }
+}

@@ -5,4 +5,13 @@
 //  Created by Carlos Alfredo Llerena Huayta on 31/08/22.
 //
 
-import Foundation
+struct BreedsStrings {
+    
+    struct Home {
+        static let title = "Razas"
+    }
+    
+    struct Saved {
+        static let title = "Razas Guardadas"
+    }
+}

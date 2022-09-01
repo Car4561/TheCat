@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct BreedData: Decodable {
+    let name: String
+    let date: Date
+    let url: String
+    let voting: Voting?
+}

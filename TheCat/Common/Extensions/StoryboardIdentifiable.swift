@@ -5,4 +5,14 @@
 //  Created by Carlos Alfredo Llerena Huayta on 29/08/22.
 //
 
-import Foundation
+import UIKit
+
+protocol StoryboardIdentifiable {
+    static var storyboardIdentifier: String { get }
+}
+
+extension StoryboardIdentifiable where Self: UIViewController {
+    static var storyboardIdentifier: String {
+        return String(describing: Self.self)
+    }
+}

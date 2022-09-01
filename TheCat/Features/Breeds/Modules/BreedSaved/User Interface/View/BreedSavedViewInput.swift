@@ -10,4 +10,5 @@ protocol BreedSavedViewInput: AnyObject {
 
     func setUpInitialState()
     func moduleInput() -> BreedSavedModuleInput
+    func setBreedSavedList(_ breedSavedList: [BreedData])
 }

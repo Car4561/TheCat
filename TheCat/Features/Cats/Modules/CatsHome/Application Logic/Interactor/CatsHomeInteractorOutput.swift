@@ -7,4 +7,5 @@
 //
 
 protocol CatsHomeInteractorOutput: AnyObject {
+    func didFetchCats(_ catsList: [Cat])
 }

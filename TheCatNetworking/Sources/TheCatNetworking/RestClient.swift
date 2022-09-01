@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  RestClient.swift
 //  
 //
 //  Created by Carlos Alfredo Llerena Huayta on 29/08/22.
@@ -27,15 +27,10 @@ open class RestClient: NSObject{
                                                     errorType: U.Type) -> AnyPublisher<T, NetworkingError> {
         let fullURLString = baseURL + resource.resource.route
         
-        guard let urlInit = URL(string: fullURLString), var urlComponents = URLComponents(url: urlInit, resolvingAgainstBaseURL: false) else {
+        guard let url = URL(string: fullURLString) else {
             return Fail(error: NetworkingError.invalidRequestError("Invalid URL: \(fullURLString)")).eraseToAnyPublisher()
         }
         
-        urlComponents.queryItems = querys
-        
-        guard let url = urlComponents.url else {
-            return Fail(error: NetworkingError.invalidRequestError("Invalid URL: \(fullURLString)")).eraseToAnyPublisher()
-        }
         var urlRequest = URLRequest(url: url)
         
         urlRequest.httpMethod = resource.resource.method.rawValue
@@ -48,12 +43,8 @@ open class RestClient: NSObject{
            let parameters = parameters {
             urlRequest.httpBody = try? JSONSerialization.data(withJSONObject: parameters, options: .prettyPrinted)
         }
-        
-        let session = URLSession(configuration: URLSessionConfiguration.default,
-                                 delegate: self,
-                                 delegateQueue: nil)
-        
-        return session.dataTaskPublisher(for: urlRequest)
+
+        return URLSession.shared.dataTaskPublisher(for: urlRequest)
             .mapError({ error -> NetworkingError in
                 if error.code  == URLError.Code.notConnectedToInternet {
                     return .notConnectionInternet(error)
@@ -84,7 +75,8 @@ open class RestClient: NSObject{
                 let decoder = JSONDecoder()
                 
                 do {
-                    return try decoder.decode(T.self, from: data)
+                    let decode = try decoder.decode(T.self, from: data)
+                    return decode
                 } catch {
                     let message = "Failed parsing object: \(String(describing: T.self))"
                     

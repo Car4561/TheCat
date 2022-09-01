@@ -7,15 +7,118 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B0C1598A0B5B0C0DCACE4E /* MainTabBarViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563B67B4E2C84AFFF2DC8F9 /* MainTabBarViewInput.swift */; };
+		05603ADB4F7CBDCA5EDC7476 /* CatsHomeInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E08C3D721A9D6A9B7303A /* CatsHomeInteractorTest.swift */; };
+		0C65E6F6842B9B0C0BA523F7 /* BreedSavedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A4E88F49EA11F6E111A073 /* BreedSavedInteractor.swift */; };
+		0EC8864F45C678A767F22034 /* CatsHomeModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5559FEB02EC7CC713E453F37 /* CatsHomeModuleInput.swift */; };
+		0F26535E6A46E11476FB5A17 /* BreedSavedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA77A4847BDE5539D6ADE97 /* BreedSavedPresenter.swift */; };
+		13F0C7342B1374BE043EA9D2 /* BreedSavedViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B604E613A41A4D76C4878F /* BreedSavedViewInput.swift */; };
+		152A250E176453657E600C86 /* BreedSavedInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278FC0357455FA881574ED9 /* BreedSavedInitializer.swift */; };
+		173F752E0C3F53DA7E76F884 /* CatsViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63B19E0992E37C84238740 /* CatsViewTest.swift */; };
+		197A8E4063A7DAFB1245E6F1 /* CatsHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0688AEC1AF8889FE4DF92B28 /* CatsHomeRouter.swift */; };
+		21658DF74CD2BB98589F6CFD /* MainTabBarRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD5532953F7A7C34F1531A /* MainTabBarRouterInput.swift */; };
+		21C24E9D32EC43A6FC0D2561 /* MainTabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F0D8E9E59B4C74E7CB147F /* MainTabBarPresenter.swift */; };
+		22751FBACFCD1B7665B0FA91 /* BreedsHomeInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F81CAA28D8EC02ED5A9D8E /* BreedsHomeInteractorTest.swift */; };
+		2375DB184B5ACE5B67942785 /* MainTabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F813DE7E3AD0C8A53BBBAA4 /* MainTabBarConfigurator.swift */; };
+		2579F6F94C4D130148F01482 /* CatsHomeConfiguratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F2176637242D2B2537F81F /* CatsHomeConfiguratorTest.swift */; };
+		259987891C32934F4D4D5E72 /* BreedsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339418809E7CA6EF8F025F05 /* BreedsHomeViewController.swift */; };
+		25F779072A23572E8F53FFB9 /* CatsHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC0C5E67C8C8CD72668493 /* CatsHomeViewController.swift */; };
+		2BE6C1B60C13D7203687BB2B /* BreedsHomeRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7BE912EE8FD98DEAE0505 /* BreedsHomeRouterInput.swift */; };
+		2C1C333576C2657E89698E93 /* MainTabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7881A151E35DDFDB8C8B61 /* MainTabBarInteractor.swift */; };
+		2DBD2765B8F9999F44618B47 /* BreedSavedConfiguratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99342E2EF9D58E599DD6A9F2 /* BreedSavedConfiguratorTest.swift */; };
 		2FC164CD28BDA6D700677E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC164CC28BDA6D700677E42 /* AppDelegate.swift */; };
 		2FC164CF28BDA6D700677E42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC164CE28BDA6D700677E42 /* SceneDelegate.swift */; };
-		2FC164D128BDA6D700677E42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC164D028BDA6D700677E42 /* ViewController.swift */; };
-		2FC164D428BDA6D700677E42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC164D228BDA6D700677E42 /* Main.storyboard */; };
 		2FC164D628BDA6D800677E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC164D528BDA6D800677E42 /* Assets.xcassets */; };
 		2FC164D928BDA6D800677E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC164D728BDA6D800677E42 /* LaunchScreen.storyboard */; };
 		2FC164E428BDA6D900677E42 /* TheCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC164E328BDA6D900677E42 /* TheCatTests.swift */; };
 		2FC164EE28BDA6D900677E42 /* TheCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC164ED28BDA6D900677E42 /* TheCatUITests.swift */; };
 		2FC164F028BDA6D900677E42 /* TheCatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC164EF28BDA6D900677E42 /* TheCatUITestsLaunchTests.swift */; };
+		2FC164FE28BDB04200677E42 /* TheCatNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 2FC164FD28BDB04200677E42 /* TheCatNetworking */; };
+		2FC1650228BDBAE500677E42 /* CommonStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1650128BDBAE500677E42 /* CommonStrings.swift */; };
+		2FC1650528BDBB0F00677E42 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1650428BDBB0F00677E42 /* NetworkingService.swift */; };
+		2FC1650928BDBB7500677E42 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1650828BDBB7500677E42 /* Host.swift */; };
+		2FC1650C28BDBBC800677E42 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1650B28BDBBC800677E42 /* Routable.swift */; };
+		2FC1651728BDBC4E00677E42 /* JSONUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1651628BDBC4E00677E42 /* JSONUtility.swift */; };
+		2FC1651928BDBC5800677E42 /* StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1651828BDBC5800677E42 /* StoryboardIdentifiable.swift */; };
+		2FC1651B28BDBC9400677E42 /* UIStoryboard+StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1651A28BDBC9400677E42 /* UIStoryboard+StoryboardIdentifiable.swift */; };
+		2FC1651D28BDBC9F00677E42 /* UIStoryboard+Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1651C28BDBC9F00677E42 /* UIStoryboard+Storyboards.swift */; };
+		2FC1652028BDBD7C00677E42 /* Cats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC1651F28BDBD7C00677E42 /* Cats.storyboard */; };
+		2FC1652328BDC8DC00677E42 /* MainNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC1652228BDC8DC00677E42 /* MainNavigation.storyboard */; };
+		2FC1652528BDCC1800677E42 /* TheCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2FC1652428BDCC1800677E42 /* TheCatUI */; };
+		2FC1652928BDD00800677E42 /* CatsStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC1652828BDD00800677E42 /* CatsStrings.swift */; };
+		2FF2E48C28BED05900A04CF6 /* CatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E48B28BED05900A04CF6 /* CatTableViewCell.swift */; };
+		2FF2E49028BEE3A900A04CF6 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E48F28BEE3A900A04CF6 /* Cat.swift */; };
+		2FF2E49228BEE52D00A04CF6 /* CatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2E49128BEE52D00A04CF6 /* CatTableViewCell.xib */; };
+		2FF2E49528BEF73100A04CF6 /* CatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E49428BEF73100A04CF6 /* CatClient.swift */; };
+		2FF2E49728BEF73A00A04CF6 /* CatResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E49628BEF73A00A04CF6 /* CatResource.swift */; };
+		2FF2E49A28BEF81600A04CF6 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E49928BEF81600A04CF6 /* ErrorResponse.swift */; };
+		2FF2E49C28BF001F00A04CF6 /* Breeds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2E49B28BF001F00A04CF6 /* Breeds.storyboard */; };
+		2FF2E4A028BF2D5D00A04CF6 /* BreedsStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E49F28BF2D5D00A04CF6 /* BreedsStrings.swift */; };
+		2FF2E4A328BF306500A04CF6 /* BreedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E4A228BF306500A04CF6 /* BreedTableViewCell.swift */; };
+		2FF2E4A528BF30C800A04CF6 /* BreedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2E4A428BF30C800A04CF6 /* BreedTableViewCell.xib */; };
+		2FF2E4A928BF31E500A04CF6 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E4A828BF31E500A04CF6 /* Breed.swift */; };
+		2FF2E4AB28BF337900A04CF6 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E4AA28BF337900A04CF6 /* Image.swift */; };
+		2FF2E4AE28BF34DB00A04CF6 /* BreedClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E4AD28BF34DB00A04CF6 /* BreedClient.swift */; };
+		2FF2E4B028BF34E200A04CF6 /* BreedResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E4AF28BF34E200A04CF6 /* BreedResource.swift */; };
+		2FF2E4B428C0674A00A04CF6 /* BreedDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E4B228C0674A00A04CF6 /* BreedDataModel.xcdatamodeld */; };
+		2FF2E4B628C067EE00A04CF6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E4B528C067EE00A04CF6 /* CoreDataManager.swift */; };
+		2FF2E4B828C069E800A04CF6 /* BreedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E4B728C069E800A04CF6 /* BreedData.swift */; };
+		2FF2E4C428C07A9700A04CF6 /* BreedSavedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2E4C228C07A9700A04CF6 /* BreedSavedTableViewCell.xib */; };
+		2FF2E4C528C07A9700A04CF6 /* BreedSavedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2E4C328C07A9700A04CF6 /* BreedSavedTableViewCell.swift */; };
+		3076A770E981FBB9D4D91DD8 /* CatsInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B1931563F75EA664201FCC /* CatsInteractorTest.swift */; };
+		310DB05588D65974D9CA92B0 /* BreedsHomeModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07A3FE73045A53EA35AB4D2 /* BreedsHomeModuleInput.swift */; };
+		3309A08994BB4874C596F006 /* BreedSavedModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB51DF9CDF7D1BE74962737 /* BreedSavedModuleInput.swift */; };
+		361E403FF60EFFEE72038E5A /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258AF02ED225C8D73BCD8EF /* MainTabBarViewController.swift */; };
+		36B0C115371EB3FA8083E311 /* BreedsHomeViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514898FC970F78EC023A7342 /* BreedsHomeViewInput.swift */; };
+		37E4E1BACE361E84D3E15B83 /* MainTabBarInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E063AC3E14FAD5E93E1498 /* MainTabBarInteractorOutput.swift */; };
+		3C80591DA4A51D0D59E13B24 /* BreedSavedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53A06FDF61A94777DD5B14A /* BreedSavedRouter.swift */; };
+		3EC86A67C478F9E6082A8078 /* MainTabBarModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99DD394AFAA7BAAD675F79 /* MainTabBarModuleInput.swift */; };
+		420DC8C219278C56E920CC90 /* CatsHomeRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF90236AC88599455F286D /* CatsHomeRouterInput.swift */; };
+		4283AA1AC3C0CCF8928915F5 /* BreedSavedRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D6BC7C6A721129767492B /* BreedSavedRouterTest.swift */; };
+		494AACEE62180A1651C86EEF /* CatsHomePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7817D4BD56608B123414079B /* CatsHomePresenterTest.swift */; };
+		4C0B9A129B4D723CD97AAF27 /* CatsHomeViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F96620D4691AEAD7B8F224F /* CatsHomeViewOutput.swift */; };
+		567A9E150840E96C1480D7F9 /* MainTabBarViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01354B5E9684511FC3B5CA8 /* MainTabBarViewTest.swift */; };
+		5B43FEBC98A31A96C77C566A /* BreedsHomeInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A4FEE39C82C324B5F40D46 /* BreedsHomeInteractorInput.swift */; };
+		5DBED20411CB5D5836628655 /* MainTabBarInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C68935ECFF6D72B946C11 /* MainTabBarInitializer.swift */; };
+		5EE6D5C04FC420DA47B54B7D /* BreedsHomeInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC5BD525D726AF3D06D967 /* BreedsHomeInitializer.swift */; };
+		6131C166D26FD696E21742FC /* BreedSavedInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5ED623ED2E56FD41D052F5 /* BreedSavedInteractorInput.swift */; };
+		62BD2D53FAF7C0F7EDC4C1BF /* BreedsHomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3096F304E84EE01C77F57 /* BreedsHomeConfigurator.swift */; };
+		637F42933F9BBCF36AF11F19 /* BreedSavedPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41D20C745D4FB7E2D597BC /* BreedSavedPresenterTest.swift */; };
+		6826F6239BE494B8C113A1F8 /* BreedSavedInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DD2762A997304B9895856E /* BreedSavedInteractorTest.swift */; };
+		6ADBF6E182407D7A59A431CB /* CatsHomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CF5B65507E324700B5E809 /* CatsHomeConfigurator.swift */; };
+		6C28EEF303E4C46D698FE480 /* BreedSavedInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A8C0923489206EAFD2A93 /* BreedSavedInteractorOutput.swift */; };
+		74B0D26DC950F37CCD536E57 /* CatsHomeViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7CEA24F2049934E5B4A30 /* CatsHomeViewTest.swift */; };
+		7673F4F7A62087598306B924 /* CatsHomeInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B41773F3E370ACA3DC3F4F /* CatsHomeInitializer.swift */; };
+		7857ECB36A427CB9BB461EFC /* MainTabBarInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4088175541F8337B2B3520 /* MainTabBarInteractorInput.swift */; };
+		7C725DDEAA7BEF4581E92319 /* CatsConfiguratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ACF75379E7666B433248AA /* CatsConfiguratorTest.swift */; };
+		867A5575DF3A11EDDB3A0767 /* BreedsHomeViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94315B5A324C1B8D385F875C /* BreedsHomeViewTest.swift */; };
+		8A28BF5F6603EA1D1A0C036D /* BreedSavedViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1C5840CB207BA081E0389 /* BreedSavedViewTest.swift */; };
+		92691B1EED53CCFBD2241742 /* BreedSavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CE7AB18C2482899BCB1B9E /* BreedSavedViewController.swift */; };
+		993C9C218CA698EA6CDEA8D2 /* MainTabBarInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB64BDCACBD8879823870FF /* MainTabBarInteractorTest.swift */; };
+		A137E5D2EAEE623256AEE9EA /* CatsHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0382F684EA1EB384CE2376A4 /* CatsHomePresenter.swift */; };
+		A160BC69163F77085EA05E11 /* MainTabBarRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDAC174C43DE9304E692ECF /* MainTabBarRouterTest.swift */; };
+		A2EBE9DDABE605FBC457C8C7 /* CatsPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7917F57943885FF46D625B /* CatsPresenterTest.swift */; };
+		A31665840DDC3AC71B7CB85E /* MainTabBarViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D3EAC2260C1C53429A891 /* MainTabBarViewOutput.swift */; };
+		A447F601FE96337069673721 /* BreedSavedViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9033F19756A641D58A453F /* BreedSavedViewOutput.swift */; };
+		A61622A67B307806791A2469 /* CatsHomeRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D68938AED1744FC9EF0814 /* CatsHomeRouterTest.swift */; };
+		AFFEF6B976ABB8AD56B8C240 /* MainTabBarConfiguratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F659FA6E09FA3C8FE6461859 /* MainTabBarConfiguratorTest.swift */; };
+		B04B2FB916BB722C918191E6 /* BreedsHomeConfiguratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016436E7C993689E772BAE92 /* BreedsHomeConfiguratorTest.swift */; };
+		C5098C3A06ADB37E25C3B58D /* BreedSavedRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63FAC9FEBDAC3EBCDC246FE /* BreedSavedRouterInput.swift */; };
+		CACFB7BEF27C9CD5A6C1BDCF /* MainTabBarPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B574F34EFBB33455F7C3 /* MainTabBarPresenterTest.swift */; };
+		CF351017E950670602A1D8AD /* CatsHomeViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645157798DBDE7CEA4668DD6 /* CatsHomeViewInput.swift */; };
+		D0E82404F6A306742105C607 /* CatsRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EF423D2ADA6A89F467351E /* CatsRouterTest.swift */; };
+		D48F365948849FDD2B23C5F5 /* BreedsHomeViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE048ED2AAF2D4F73ADE7B4 /* BreedsHomeViewOutput.swift */; };
+		D57F45540FF46F819EB1B4C2 /* BreedsHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29420DEE04BADE5852892A29 /* BreedsHomeRouter.swift */; };
+		D5BACFB8220E92B9A1E4CFE5 /* BreedsHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72962C23563479C66EA057A6 /* BreedsHomeInteractor.swift */; };
+		D5DE7C8BE160F1D12EB08351 /* BreedSavedConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E8D30582C4810877FDF83 /* BreedSavedConfigurator.swift */; };
+		D689FF772B64CDAC97B50F41 /* MainTabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162BBC3DAD063536D94C8E78 /* MainTabBarRouter.swift */; };
+		E2F8395A0187D85372097733 /* BreedsHomeRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3311B967104E55F9B5504B4A /* BreedsHomeRouterTest.swift */; };
+		E6446C374EDC99B2180BD2B5 /* BreedsHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684A09501D9421431DAF3802 /* BreedsHomePresenter.swift */; };
+		E89CA8294F0FE04C23157444 /* CatsHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7860AC33BA2ACCD6081365E0 /* CatsHomeInteractor.swift */; };
+		EE47C9BAC4AC49B2768A2CB7 /* CatsHomeInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA4008AF30FDBAE8F8CBC6 /* CatsHomeInteractorInput.swift */; };
+		F48CCAE8093DD2FEC7DA4738 /* CatsHomeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F0DA6BE4E6754997B9EE3 /* CatsHomeInteractorOutput.swift */; };
+		F78B656466A743A27606B761 /* BreedsHomePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C946EE2F8CF8FCE8F4581D8 /* BreedsHomePresenterTest.swift */; };
+		FFA8854BC70F98C6DB87D024 /* BreedsHomeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE9146C63D918CFA6D5F59 /* BreedsHomeInteractorOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +139,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		016436E7C993689E772BAE92 /* BreedsHomeConfiguratorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeConfiguratorTest.swift; sourceTree = "<group>"; };
+		0382F684EA1EB384CE2376A4 /* CatsHomePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomePresenter.swift; sourceTree = "<group>"; };
+		0688AEC1AF8889FE4DF92B28 /* CatsHomeRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeRouter.swift; sourceTree = "<group>"; };
+		08F0D8E9E59B4C74E7CB147F /* MainTabBarPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarPresenter.swift; sourceTree = "<group>"; };
+		09A4E88F49EA11F6E111A073 /* BreedSavedInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedInteractor.swift; sourceTree = "<group>"; };
+		0D5ED623ED2E56FD41D052F5 /* BreedSavedInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedInteractorInput.swift; sourceTree = "<group>"; };
+		0E8D6BC7C6A721129767492B /* BreedSavedRouterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedRouterTest.swift; sourceTree = "<group>"; };
+		0E99DD394AFAA7BAAD675F79 /* MainTabBarModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarModuleInput.swift; sourceTree = "<group>"; };
+		0F96620D4691AEAD7B8F224F /* CatsHomeViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeViewOutput.swift; sourceTree = "<group>"; };
+		162BBC3DAD063536D94C8E78 /* MainTabBarRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarRouter.swift; sourceTree = "<group>"; };
+		180E08C3D721A9D6A9B7303A /* CatsHomeInteractorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeInteractorTest.swift; sourceTree = "<group>"; };
+		19F2176637242D2B2537F81F /* CatsHomeConfiguratorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeConfiguratorTest.swift; sourceTree = "<group>"; };
+		1E63B19E0992E37C84238740 /* CatsViewTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsViewTest.swift; sourceTree = "<group>"; };
+		29420DEE04BADE5852892A29 /* BreedsHomeRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeRouter.swift; sourceTree = "<group>"; };
 		2FC164C928BDA6D700677E42 /* TheCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC164CC28BDA6D700677E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FC164CE28BDA6D700677E42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FC164D028BDA6D700677E42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2FC164D328BDA6D700677E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FC164D528BDA6D800677E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FC164D828BDA6D800677E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FC164DA28BDA6D800677E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +164,95 @@
 		2FC164E928BDA6D900677E42 /* TheCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC164ED28BDA6D900677E42 /* TheCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCatUITests.swift; sourceTree = "<group>"; };
 		2FC164EF28BDA6D900677E42 /* TheCatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FC1650128BDBAE500677E42 /* CommonStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStrings.swift; sourceTree = "<group>"; };
+		2FC1650428BDBB0F00677E42 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		2FC1650828BDBB7500677E42 /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		2FC1650B28BDBBC800677E42 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		2FC1651628BDBC4E00677E42 /* JSONUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUtility.swift; sourceTree = "<group>"; };
+		2FC1651828BDBC5800677E42 /* StoryboardIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiable.swift; sourceTree = "<group>"; };
+		2FC1651A28BDBC9400677E42 /* UIStoryboard+StoryboardIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+StoryboardIdentifiable.swift"; sourceTree = "<group>"; };
+		2FC1651C28BDBC9F00677E42 /* UIStoryboard+Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Storyboards.swift"; sourceTree = "<group>"; };
+		2FC1651F28BDBD7C00677E42 /* Cats.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cats.storyboard; sourceTree = "<group>"; };
+		2FC1652228BDC8DC00677E42 /* MainNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainNavigation.storyboard; sourceTree = "<group>"; };
+		2FC1652828BDD00800677E42 /* CatsStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsStrings.swift; sourceTree = "<group>"; };
+		2FF2E48B28BED05900A04CF6 /* CatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewCell.swift; sourceTree = "<group>"; };
+		2FF2E48F28BEE3A900A04CF6 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		2FF2E49128BEE52D00A04CF6 /* CatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatTableViewCell.xib; sourceTree = "<group>"; };
+		2FF2E49428BEF73100A04CF6 /* CatClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatClient.swift; sourceTree = "<group>"; };
+		2FF2E49628BEF73A00A04CF6 /* CatResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatResource.swift; sourceTree = "<group>"; };
+		2FF2E49928BEF81600A04CF6 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		2FF2E49B28BF001F00A04CF6 /* Breeds.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Breeds.storyboard; sourceTree = "<group>"; };
+		2FF2E49F28BF2D5D00A04CF6 /* BreedsStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsStrings.swift; sourceTree = "<group>"; };
+		2FF2E4A228BF306500A04CF6 /* BreedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedTableViewCell.swift; sourceTree = "<group>"; };
+		2FF2E4A428BF30C800A04CF6 /* BreedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BreedTableViewCell.xib; sourceTree = "<group>"; };
+		2FF2E4A828BF31E500A04CF6 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		2FF2E4AA28BF337900A04CF6 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		2FF2E4AD28BF34DB00A04CF6 /* BreedClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedClient.swift; sourceTree = "<group>"; };
+		2FF2E4AF28BF34E200A04CF6 /* BreedResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedResource.swift; sourceTree = "<group>"; };
+		2FF2E4B328C0674A00A04CF6 /* CatDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CatDataModel.xcdatamodel; sourceTree = "<group>"; };
+		2FF2E4B528C067EE00A04CF6 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		2FF2E4B728C069E800A04CF6 /* BreedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedData.swift; sourceTree = "<group>"; };
+		2FF2E4C228C07A9700A04CF6 /* BreedSavedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BreedSavedTableViewCell.xib; sourceTree = "<group>"; };
+		2FF2E4C328C07A9700A04CF6 /* BreedSavedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedSavedTableViewCell.swift; sourceTree = "<group>"; };
+		3311B967104E55F9B5504B4A /* BreedsHomeRouterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeRouterTest.swift; sourceTree = "<group>"; };
+		339418809E7CA6EF8F025F05 /* BreedsHomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeViewController.swift; sourceTree = "<group>"; };
+		35E063AC3E14FAD5E93E1498 /* MainTabBarInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractorOutput.swift; sourceTree = "<group>"; };
+		3EC1C5840CB207BA081E0389 /* BreedSavedViewTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedViewTest.swift; sourceTree = "<group>"; };
+		45A7BE912EE8FD98DEAE0505 /* BreedsHomeRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeRouterInput.swift; sourceTree = "<group>"; };
+		4CB51DF9CDF7D1BE74962737 /* BreedSavedModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedModuleInput.swift; sourceTree = "<group>"; };
+		514898FC970F78EC023A7342 /* BreedsHomeViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeViewInput.swift; sourceTree = "<group>"; };
+		53DD2762A997304B9895856E /* BreedSavedInteractorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedInteractorTest.swift; sourceTree = "<group>"; };
+		5559FEB02EC7CC713E453F37 /* CatsHomeModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeModuleInput.swift; sourceTree = "<group>"; };
+		59CF5B65507E324700B5E809 /* CatsHomeConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeConfigurator.swift; sourceTree = "<group>"; };
+		5DBC0C5E67C8C8CD72668493 /* CatsHomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeViewController.swift; sourceTree = "<group>"; };
+		5EEC5BD525D726AF3D06D967 /* BreedsHomeInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeInitializer.swift; sourceTree = "<group>"; };
+		60BE9146C63D918CFA6D5F59 /* BreedsHomeInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeInteractorOutput.swift; sourceTree = "<group>"; };
+		6278FC0357455FA881574ED9 /* BreedSavedInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedInitializer.swift; sourceTree = "<group>"; };
+		63B1931563F75EA664201FCC /* CatsInteractorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsInteractorTest.swift; sourceTree = "<group>"; };
+		645157798DBDE7CEA4668DD6 /* CatsHomeViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeViewInput.swift; sourceTree = "<group>"; };
+		64B41773F3E370ACA3DC3F4F /* CatsHomeInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeInitializer.swift; sourceTree = "<group>"; };
+		684A09501D9421431DAF3802 /* BreedsHomePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomePresenter.swift; sourceTree = "<group>"; };
+		68D3096F304E84EE01C77F57 /* BreedsHomeConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeConfigurator.swift; sourceTree = "<group>"; };
+		6A41D20C745D4FB7E2D597BC /* BreedSavedPresenterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedPresenterTest.swift; sourceTree = "<group>"; };
+		6F7917F57943885FF46D625B /* CatsPresenterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsPresenterTest.swift; sourceTree = "<group>"; };
+		70CD5532953F7A7C34F1531A /* MainTabBarRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarRouterInput.swift; sourceTree = "<group>"; };
+		72962C23563479C66EA057A6 /* BreedsHomeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeInteractor.swift; sourceTree = "<group>"; };
+		7817D4BD56608B123414079B /* CatsHomePresenterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomePresenterTest.swift; sourceTree = "<group>"; };
+		7860AC33BA2ACCD6081365E0 /* CatsHomeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeInteractor.swift; sourceTree = "<group>"; };
+		82ACF75379E7666B433248AA /* CatsConfiguratorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsConfiguratorTest.swift; sourceTree = "<group>"; };
+		8C3C68935ECFF6D72B946C11 /* MainTabBarInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarInitializer.swift; sourceTree = "<group>"; };
+		932D3EAC2260C1C53429A891 /* MainTabBarViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarViewOutput.swift; sourceTree = "<group>"; };
+		94315B5A324C1B8D385F875C /* BreedsHomeViewTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeViewTest.swift; sourceTree = "<group>"; };
+		9563B67B4E2C84AFFF2DC8F9 /* MainTabBarViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarViewInput.swift; sourceTree = "<group>"; };
+		99342E2EF9D58E599DD6A9F2 /* BreedSavedConfiguratorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedConfiguratorTest.swift; sourceTree = "<group>"; };
+		9C946EE2F8CF8FCE8F4581D8 /* BreedsHomePresenterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomePresenterTest.swift; sourceTree = "<group>"; };
+		9F813DE7E3AD0C8A53BBBAA4 /* MainTabBarConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarConfigurator.swift; sourceTree = "<group>"; };
+		AFA77A4847BDE5539D6ADE97 /* BreedSavedPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedPresenter.swift; sourceTree = "<group>"; };
+		B258AF02ED225C8D73BCD8EF /* MainTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		B2AF90236AC88599455F286D /* CatsHomeRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeRouterInput.swift; sourceTree = "<group>"; };
+		B63FAC9FEBDAC3EBCDC246FE /* BreedSavedRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedRouterInput.swift; sourceTree = "<group>"; };
+		BA1A8C0923489206EAFD2A93 /* BreedSavedInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedInteractorOutput.swift; sourceTree = "<group>"; };
+		BE7881A151E35DDFDB8C8B61 /* MainTabBarInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractor.swift; sourceTree = "<group>"; };
+		BF9033F19756A641D58A453F /* BreedSavedViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedViewOutput.swift; sourceTree = "<group>"; };
+		BFDAC174C43DE9304E692ECF /* MainTabBarRouterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarRouterTest.swift; sourceTree = "<group>"; };
+		C0A4FEE39C82C324B5F40D46 /* BreedsHomeInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeInteractorInput.swift; sourceTree = "<group>"; };
+		C6D68938AED1744FC9EF0814 /* CatsHomeRouterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeRouterTest.swift; sourceTree = "<group>"; };
+		CBFA4008AF30FDBAE8F8CBC6 /* CatsHomeInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeInteractorInput.swift; sourceTree = "<group>"; };
+		CF4088175541F8337B2B3520 /* MainTabBarInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractorInput.swift; sourceTree = "<group>"; };
+		D52E8D30582C4810877FDF83 /* BreedSavedConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedConfigurator.swift; sourceTree = "<group>"; };
+		D72F0DA6BE4E6754997B9EE3 /* CatsHomeInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeInteractorOutput.swift; sourceTree = "<group>"; };
+		DBB64BDCACBD8879823870FF /* MainTabBarInteractorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractorTest.swift; sourceTree = "<group>"; };
+		E07A3FE73045A53EA35AB4D2 /* BreedsHomeModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeModuleInput.swift; sourceTree = "<group>"; };
+		E0EF423D2ADA6A89F467351E /* CatsRouterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsRouterTest.swift; sourceTree = "<group>"; };
+		E1B604E613A41A4D76C4878F /* BreedSavedViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedViewInput.swift; sourceTree = "<group>"; };
+		E53A06FDF61A94777DD5B14A /* BreedSavedRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedRouter.swift; sourceTree = "<group>"; };
+		E9E7CEA24F2049934E5B4A30 /* CatsHomeViewTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsHomeViewTest.swift; sourceTree = "<group>"; };
+		F01354B5E9684511FC3B5CA8 /* MainTabBarViewTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarViewTest.swift; sourceTree = "<group>"; };
+		F0CE7AB18C2482899BCB1B9E /* BreedSavedViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedSavedViewController.swift; sourceTree = "<group>"; };
+		F5F81CAA28D8EC02ED5A9D8E /* BreedsHomeInteractorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeInteractorTest.swift; sourceTree = "<group>"; };
+		F659FA6E09FA3C8FE6461859 /* MainTabBarConfiguratorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarConfiguratorTest.swift; sourceTree = "<group>"; };
+		FBE048ED2AAF2D4F73ADE7B4 /* BreedsHomeViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreedsHomeViewOutput.swift; sourceTree = "<group>"; };
+		FE21B574F34EFBB33455F7C3 /* MainTabBarPresenterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarPresenterTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +260,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC164FE28BDB04200677E42 /* TheCatNetworking in Frameworks */,
+				2FC1652528BDCC1800677E42 /* TheCatUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +282,135 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0474B5264B0E0416ED354CAE /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				D52E8D30582C4810877FDF83 /* BreedSavedConfigurator.swift */,
+				6278FC0357455FA881574ED9 /* BreedSavedInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		0538A2EA3100E01B3749C521 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F01354B5E9684511FC3B5CA8 /* MainTabBarViewTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BB947CEBC617F0AFCEEC20C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				53DD2762A997304B9895856E /* BreedSavedInteractorTest.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1369AEF71C8AA031A7360FF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EC1C5840CB207BA081E0389 /* BreedSavedViewTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1471A9A02487C99326AF409C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				162BBC3DAD063536D94C8E78 /* MainTabBarRouter.swift */,
+				70CD5532953F7A7C34F1531A /* MainTabBarRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		183791BEA9B287D08C922688 /* CatsHome */ = {
+			isa = PBXGroup;
+			children = (
+				68119FCD98BE5B42CB36DD3A /* Application Logic */,
+				5D6EA84D8B08E9EDDB9F1B7A /* User Interface */,
+			);
+			path = CatsHome;
+			sourceTree = "<group>";
+		};
+		18CEA822D772C1391030F88D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94315B5A324C1B8D385F875C /* BreedsHomeViewTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BE25CD9D3A9AF8BEE13A80C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FE21B574F34EFBB33455F7C3 /* MainTabBarPresenterTest.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1D99FF77AFA342BC0560F094 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9EA2BD3131600E504566CC40 /* Router */,
+				620897765CAA92E4BF2E6680 /* Presenter */,
+				D0B5B60EDC8ADBD74A79ADD5 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1DAC6EE4D1C16212FCA6C511 /* Cats */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1652628BDCFED00677E42 /* Common */,
+				8034DFB904A084151768DF58 /* Modules */,
+			);
+			path = Cats;
+			sourceTree = "<group>";
+		};
+		232D49D237F85E8BFF3D9D66 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9C946EE2F8CF8FCE8F4581D8 /* BreedsHomePresenterTest.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		23A5608CE56718757F64AA2A /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				19F2176637242D2B2537F81F /* CatsHomeConfiguratorTest.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		2A52D428702DA94A75B2C03B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BE7881A151E35DDFDB8C8B61 /* MainTabBarInteractor.swift */,
+				CF4088175541F8337B2B3520 /* MainTabBarInteractorInput.swift */,
+				35E063AC3E14FAD5E93E1498 /* MainTabBarInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2BB75F3E15659B7185B51620 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4CB51DF9CDF7D1BE74962737 /* BreedSavedModuleInput.swift */,
+				AFA77A4847BDE5539D6ADE97 /* BreedSavedPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2E983D27ACB18CFB13561F88 /* TheCat Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0525AFA5E3CD0276D336F1A /* Features */,
+			);
+			path = "TheCat Tests";
+			sourceTree = "<group>";
+		};
 		2FC164C028BDA6D700677E42 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +418,8 @@
 				2FC164E228BDA6D900677E42 /* TheCatTests */,
 				2FC164EC28BDA6D900677E42 /* TheCatUITests */,
 				2FC164CA28BDA6D700677E42 /* Products */,
+				2FC164FC28BDB04200677E42 /* Frameworks */,
+				2E983D27ACB18CFB13561F88 /* TheCat Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +436,13 @@
 		2FC164CB28BDA6D700677E42 /* TheCat */ = {
 			isa = PBXGroup;
 			children = (
+				2FC164FF28BDBACC00677E42 /* Common */,
 				2FC164CC28BDA6D700677E42 /* AppDelegate.swift */,
 				2FC164CE28BDA6D700677E42 /* SceneDelegate.swift */,
-				2FC164D028BDA6D700677E42 /* ViewController.swift */,
-				2FC164D228BDA6D700677E42 /* Main.storyboard */,
 				2FC164D528BDA6D800677E42 /* Assets.xcassets */,
 				2FC164D728BDA6D800677E42 /* LaunchScreen.storyboard */,
 				2FC164DA28BDA6D800677E42 /* Info.plist */,
+				6FE8DE8D5627F59AB889CFB9 /* Features */,
 			);
 			path = TheCat;
 			sourceTree = "<group>";
@@ -127,6 +464,824 @@
 			path = TheCatUITests;
 			sourceTree = "<group>";
 		};
+		2FC164FC28BDB04200677E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FC164FF28BDBACC00677E42 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1652128BDC7DC00677E42 /* Modules */,
+				2FC1650028BDBAD400677E42 /* Strings */,
+				2FC1650D28BDBBF700677E42 /* Extensions */,
+				2FC1650A28BDBBBD00677E42 /* Navigation */,
+				2FC1650628BDBB5300677E42 /* Entity */,
+				2FC1650328BDBB0100677E42 /* Services */,
+				2FC1651E28BDBD6500677E42 /* Storyboards */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2FC1650028BDBAD400677E42 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1650128BDBAE500677E42 /* CommonStrings.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		2FC1650328BDBB0100677E42 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4BB28C06D1700A04CF6 /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2FC1650628BDBB5300677E42 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4B128C0672300A04CF6 /* CoreData */,
+				2FF2E49828BEF80B00A04CF6 /* Models */,
+				2FC1650828BDBB7500677E42 /* Host.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2FC1650A28BDBBBD00677E42 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1650B28BDBBC800677E42 /* Routable.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		2FC1650D28BDBBF700677E42 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1651628BDBC4E00677E42 /* JSONUtility.swift */,
+				2FC1651828BDBC5800677E42 /* StoryboardIdentifiable.swift */,
+				2FC1651A28BDBC9400677E42 /* UIStoryboard+StoryboardIdentifiable.swift */,
+				2FC1651C28BDBC9F00677E42 /* UIStoryboard+Storyboards.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2FC1651E28BDBD6500677E42 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1651F28BDBD7C00677E42 /* Cats.storyboard */,
+				2FF2E49B28BF001F00A04CF6 /* Breeds.storyboard */,
+				2FC1652228BDC8DC00677E42 /* MainNavigation.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2FC1652128BDC7DC00677E42 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5878FB615DEFC47619253E16 /* MainTabBar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2FC1652628BDCFED00677E42 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E49328BEF72800A04CF6 /* Entity */,
+				2FC1652728BDCFFB00677E42 /* Strings */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2FC1652728BDCFFB00677E42 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1652828BDD00800677E42 /* CatsStrings.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		2FF2E48A28BED04A00A04CF6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E48B28BED05900A04CF6 /* CatTableViewCell.swift */,
+				2FF2E49128BEE52D00A04CF6 /* CatTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2FF2E48D28BEE39900A04CF6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E48E28BEE3A200A04CF6 /* Model */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2FF2E48E28BEE3A200A04CF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E48F28BEE3A900A04CF6 /* Cat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FF2E49328BEF72800A04CF6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E49428BEF73100A04CF6 /* CatClient.swift */,
+				2FF2E49628BEF73A00A04CF6 /* CatResource.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2FF2E49828BEF80B00A04CF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E49928BEF81600A04CF6 /* ErrorResponse.swift */,
+				2FF2E4AA28BF337900A04CF6 /* Image.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FF2E49D28BF2D2800A04CF6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4AC28BF34D000A04CF6 /* Entity */,
+				2FF2E49E28BF2D4200A04CF6 /* Strings */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2FF2E49E28BF2D4200A04CF6 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E49F28BF2D5D00A04CF6 /* BreedsStrings.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		2FF2E4A128BF2FEB00A04CF6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4A228BF306500A04CF6 /* BreedTableViewCell.swift */,
+				2FF2E4A428BF30C800A04CF6 /* BreedTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2FF2E4A628BF31D400A04CF6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4A728BF31D800A04CF6 /* Model */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2FF2E4A728BF31D800A04CF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4A828BF31E500A04CF6 /* Breed.swift */,
+				2FF2E4B728C069E800A04CF6 /* BreedData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FF2E4AC28BF34D000A04CF6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4AD28BF34DB00A04CF6 /* BreedClient.swift */,
+				2FF2E4AF28BF34E200A04CF6 /* BreedResource.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2FF2E4B128C0672300A04CF6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4B228C0674A00A04CF6 /* BreedDataModel.xcdatamodeld */,
+				2FF2E4B528C067EE00A04CF6 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2FF2E4BB28C06D1700A04CF6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2FC1650428BDBB0F00677E42 /* NetworkingService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2FF2E4C128C07A9700A04CF6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4C228C07A9700A04CF6 /* BreedSavedTableViewCell.xib */,
+				2FF2E4C328C07A9700A04CF6 /* BreedSavedTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		30ECACF797C3883EFE73586D /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				016436E7C993689E772BAE92 /* BreedsHomeConfiguratorTest.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		31C8352BF7A0AA8656A36A9B /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2BB75F3E15659B7185B51620 /* Presenter */,
+				F749EA6903D9D3C2FA201C1A /* Router */,
+				9161CBFC7747F5A21E30CF2D /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		327A456B1F19B0AB6E38F91B /* Breeds */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E49D28BF2D2800A04CF6 /* Common */,
+				CD82FF2C2327D2D42E7415E8 /* Modules */,
+			);
+			path = Breeds;
+			sourceTree = "<group>";
+		};
+		330F087A6052811028F87820 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DBB64BDCACBD8879823870FF /* MainTabBarInteractorTest.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		346186756649760C203805B1 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				F659FA6E09FA3C8FE6461859 /* MainTabBarConfiguratorTest.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		3FE1FFB91401C84D86FB2EC7 /* Cats */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDDDF359A00096AE779F50 /* Application Logic */,
+				1D99FF77AFA342BC0560F094 /* User Interface */,
+			);
+			path = Cats;
+			sourceTree = "<group>";
+		};
+		41E372FC664B76D8A702E19A /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				59CF5B65507E324700B5E809 /* CatsHomeConfigurator.swift */,
+				64B41773F3E370ACA3DC3F4F /* CatsHomeInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		4340188ED2362CC62198F4DD /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7860AC33BA2ACCD6081365E0 /* CatsHomeInteractor.swift */,
+				CBFA4008AF30FDBAE8F8CBC6 /* CatsHomeInteractorInput.swift */,
+				D72F0DA6BE4E6754997B9EE3 /* CatsHomeInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		4E75E5274E555823EC843C81 /* CatsHome */ = {
+			isa = PBXGroup;
+			children = (
+				9C405FFAD483720C54177DC0 /* Application Logic */,
+				674B719E8815EEDE41CDCC86 /* User Interface */,
+			);
+			path = CatsHome;
+			sourceTree = "<group>";
+		};
+		5878FB615DEFC47619253E16 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				86DC25FA0F5691492D36FBE4 /* Application Logic */,
+				FB75223406C97F1187D6275C /* User Interface */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		5A54E91A0747B2284CC62117 /* BreedsHome */ = {
+			isa = PBXGroup;
+			children = (
+				5ACA4A624597091AD8559F7E /* Application Logic */,
+				C845CF214E27C1AA37D3BDF6 /* User Interface */,
+			);
+			path = BreedsHome;
+			sourceTree = "<group>";
+		};
+		5ACA4A624597091AD8559F7E /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4A628BF31D400A04CF6 /* Entity */,
+				DD65DBDD531B53F7AAD56B0D /* Configurator */,
+				AC02641218387B47C98A9B4E /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		5AE56AE70F53DC53E930FAA3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				63B1931563F75EA664201FCC /* CatsInteractorTest.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5C0A122F2C0BBDE52A24F28A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7CEA24F2049934E5B4A30 /* CatsHomeViewTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D6EA84D8B08E9EDDB9F1B7A /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				898FE4F3B0A3CAC4F2F01E15 /* Presenter */,
+				FF97ABFF73FA023906C475E4 /* Router */,
+				A5A3171D0B4C616846DABFA5 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		620897765CAA92E4BF2E6680 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6F7917F57943885FF46D625B /* CatsPresenterTest.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		674B719E8815EEDE41CDCC86 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B3765871DBF3D1A0859533AD /* Router */,
+				9B3A34E16E9F04E013E99CC9 /* Presenter */,
+				5C0A122F2C0BBDE52A24F28A /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		67F72F2819BBF9521F2141F6 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7F12EA1A28264671DD6E2 /* Router */,
+				94724631C1C1BA589CB99C88 /* Presenter */,
+				1369AEF71C8AA031A7360FF1 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		68119FCD98BE5B42CB36DD3A /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E48D28BEE39900A04CF6 /* Entity */,
+				41E372FC664B76D8A702E19A /* Configurator */,
+				4340188ED2362CC62198F4DD /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		6BD4B5504B16F3A03C7A7ADB /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D0A666C84688E9272FCF35FF /* Application Logic */,
+				B6CCE5133AFAAD5491F25702 /* User Interface */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		6FE8DE8D5627F59AB889CFB9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1DAC6EE4D1C16212FCA6C511 /* Cats */,
+				327A456B1F19B0AB6E38F91B /* Breeds */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		775DD85281214DC63F535800 /* BreedSaved */ = {
+			isa = PBXGroup;
+			children = (
+				AA761FC620E2DC65EE1390C6 /* Application Logic */,
+				31C8352BF7A0AA8656A36A9B /* User Interface */,
+			);
+			path = BreedSaved;
+			sourceTree = "<group>";
+		};
+		7D6E5CF6EA7BBD6C11065B89 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				180E08C3D721A9D6A9B7303A /* CatsHomeInteractorTest.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8034DFB904A084151768DF58 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				183791BEA9B287D08C922688 /* CatsHome */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		858675B1387734656D29254A /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				30ECACF797C3883EFE73586D /* Configurator */,
+				879E7B81007C3E240B215FCC /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		86DC25FA0F5691492D36FBE4 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				DD4ED293E07E816764BDE04A /* Configurator */,
+				2A52D428702DA94A75B2C03B /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		879E7B81007C3E240B215FCC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F5F81CAA28D8EC02ED5A9D8E /* BreedsHomeInteractorTest.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		898FE4F3B0A3CAC4F2F01E15 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5559FEB02EC7CC713E453F37 /* CatsHomeModuleInput.swift */,
+				0382F684EA1EB384CE2376A4 /* CatsHomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8C0AF04C91EF35C1AEF5553F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B258AF02ED225C8D73BCD8EF /* MainTabBarViewController.swift */,
+				9563B67B4E2C84AFFF2DC8F9 /* MainTabBarViewInput.swift */,
+				932D3EAC2260C1C53429A891 /* MainTabBarViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D5B52F58F4D68E36288E4AE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0E99DD394AFAA7BAAD675F79 /* MainTabBarModuleInput.swift */,
+				08F0D8E9E59B4C74E7CB147F /* MainTabBarPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9161CBFC7747F5A21E30CF2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4C128C07A9700A04CF6 /* Cell */,
+				F0CE7AB18C2482899BCB1B9E /* BreedSavedViewController.swift */,
+				E1B604E613A41A4D76C4878F /* BreedSavedViewInput.swift */,
+				BF9033F19756A641D58A453F /* BreedSavedViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		919F5359A4A77316894287A7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BFDAC174C43DE9304E692ECF /* MainTabBarRouterTest.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		94724631C1C1BA589CB99C88 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6A41D20C745D4FB7E2D597BC /* BreedSavedPresenterTest.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9B0393833C3867292C82645C /* BreedSaved */ = {
+			isa = PBXGroup;
+			children = (
+				F4E4BDD311F9DB6232D9266D /* Application Logic */,
+				67F72F2819BBF9521F2141F6 /* User Interface */,
+			);
+			path = BreedSaved;
+			sourceTree = "<group>";
+		};
+		9B3A34E16E9F04E013E99CC9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7817D4BD56608B123414079B /* CatsHomePresenterTest.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9C405FFAD483720C54177DC0 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				23A5608CE56718757F64AA2A /* Configurator */,
+				7D6E5CF6EA7BBD6C11065B89 /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		9EA2BD3131600E504566CC40 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E0EF423D2ADA6A89F467351E /* CatsRouterTest.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9ECDDDF359A00096AE779F50 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				D2C67E5E552C0786B4A87B65 /* Configurator */,
+				5AE56AE70F53DC53E930FAA3 /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		A3A4457F405DC1DFF30AF552 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				99342E2EF9D58E599DD6A9F2 /* BreedSavedConfiguratorTest.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		A5A3171D0B4C616846DABFA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E48A28BED04A00A04CF6 /* Cell */,
+				5DBC0C5E67C8C8CD72668493 /* CatsHomeViewController.swift */,
+				645157798DBDE7CEA4668DD6 /* CatsHomeViewInput.swift */,
+				0F96620D4691AEAD7B8F224F /* CatsHomeViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA761FC620E2DC65EE1390C6 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				0474B5264B0E0416ED354CAE /* Configurator */,
+				F4B2FAB97DAF31673A303862 /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		AC02641218387B47C98A9B4E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				72962C23563479C66EA057A6 /* BreedsHomeInteractor.swift */,
+				C0A4FEE39C82C324B5F40D46 /* BreedsHomeInteractorInput.swift */,
+				60BE9146C63D918CFA6D5F59 /* BreedsHomeInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B3765871DBF3D1A0859533AD /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C6D68938AED1744FC9EF0814 /* CatsHomeRouterTest.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B6CCE5133AFAAD5491F25702 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				919F5359A4A77316894287A7 /* Router */,
+				1BE25CD9D3A9AF8BEE13A80C /* Presenter */,
+				0538A2EA3100E01B3749C521 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		B9113D48D656A0594ABBF545 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				C1C7888066305F280B715B2B /* Router */,
+				232D49D237F85E8BFF3D9D66 /* Presenter */,
+				18CEA822D772C1391030F88D /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		BE31509DE3FA4456FE6C883A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3FE1FFB91401C84D86FB2EC7 /* Cats */,
+				6BD4B5504B16F3A03C7A7ADB /* MainTabBar */,
+				4E75E5274E555823EC843C81 /* CatsHome */,
+				F7110F8FF5CA83B2D86B356A /* BreedsHome */,
+				9B0393833C3867292C82645C /* BreedSaved */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C1C7888066305F280B715B2B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3311B967104E55F9B5504B4A /* BreedsHomeRouterTest.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C845CF214E27C1AA37D3BDF6 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				CBCC2A54CC9D91C8231387F1 /* Presenter */,
+				F2B460CE24EC0750DF10C7B1 /* Router */,
+				E1DE99F9C47A417C2A274892 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		CBCC2A54CC9D91C8231387F1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E07A3FE73045A53EA35AB4D2 /* BreedsHomeModuleInput.swift */,
+				684A09501D9421431DAF3802 /* BreedsHomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CD82FF2C2327D2D42E7415E8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5A54E91A0747B2284CC62117 /* BreedsHome */,
+				775DD85281214DC63F535800 /* BreedSaved */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D0A666C84688E9272FCF35FF /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				346186756649760C203805B1 /* Configurator */,
+				330F087A6052811028F87820 /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		D0B5B60EDC8ADBD74A79ADD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E63B19E0992E37C84238740 /* CatsViewTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2C67E5E552C0786B4A87B65 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				82ACF75379E7666B433248AA /* CatsConfiguratorTest.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		D4D7F12EA1A28264671DD6E2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0E8D6BC7C6A721129767492B /* BreedSavedRouterTest.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DD4ED293E07E816764BDE04A /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				9F813DE7E3AD0C8A53BBBAA4 /* MainTabBarConfigurator.swift */,
+				8C3C68935ECFF6D72B946C11 /* MainTabBarInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		DD65DBDD531B53F7AAD56B0D /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				68D3096F304E84EE01C77F57 /* BreedsHomeConfigurator.swift */,
+				5EEC5BD525D726AF3D06D967 /* BreedsHomeInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		E1DE99F9C47A417C2A274892 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2E4A128BF2FEB00A04CF6 /* Cell */,
+				339418809E7CA6EF8F025F05 /* BreedsHomeViewController.swift */,
+				514898FC970F78EC023A7342 /* BreedsHomeViewInput.swift */,
+				FBE048ED2AAF2D4F73ADE7B4 /* BreedsHomeViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E92FD6083E7528DA81BC5C4D /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				BE31509DE3FA4456FE6C883A /* Modules */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		F0525AFA5E3CD0276D336F1A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E92FD6083E7528DA81BC5C4D /* Post */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F2B460CE24EC0750DF10C7B1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				29420DEE04BADE5852892A29 /* BreedsHomeRouter.swift */,
+				45A7BE912EE8FD98DEAE0505 /* BreedsHomeRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F4B2FAB97DAF31673A303862 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				09A4E88F49EA11F6E111A073 /* BreedSavedInteractor.swift */,
+				0D5ED623ED2E56FD41D052F5 /* BreedSavedInteractorInput.swift */,
+				BA1A8C0923489206EAFD2A93 /* BreedSavedInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F4E4BDD311F9DB6232D9266D /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				A3A4457F405DC1DFF30AF552 /* Configurator */,
+				0BB947CEBC617F0AFCEEC20C /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		F7110F8FF5CA83B2D86B356A /* BreedsHome */ = {
+			isa = PBXGroup;
+			children = (
+				858675B1387734656D29254A /* Application Logic */,
+				B9113D48D656A0594ABBF545 /* User Interface */,
+			);
+			path = BreedsHome;
+			sourceTree = "<group>";
+		};
+		F749EA6903D9D3C2FA201C1A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E53A06FDF61A94777DD5B14A /* BreedSavedRouter.swift */,
+				B63FAC9FEBDAC3EBCDC246FE /* BreedSavedRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FB75223406C97F1187D6275C /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B52F58F4D68E36288E4AE /* Presenter */,
+				1471A9A02487C99326AF409C /* Router */,
+				8C0AF04C91EF35C1AEF5553F /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		FF97ABFF73FA023906C475E4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0688AEC1AF8889FE4DF92B28 /* CatsHomeRouter.swift */,
+				B2AF90236AC88599455F286D /* CatsHomeRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +1298,10 @@
 			dependencies = (
 			);
 			name = TheCat;
+			packageProductDependencies = (
+				2FC164FD28BDB04200677E42 /* TheCatNetworking */,
+				2FC1652428BDCC1800677E42 /* TheCatUI */,
+			);
 			productName = TheCat;
 			productReference = 2FC164C928BDA6D700677E42 /* TheCat.app */;
 			productType = "com.apple.product-type.application";
@@ -232,8 +1391,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC164D928BDA6D800677E42 /* LaunchScreen.storyboard in Resources */,
+				2FF2E49228BEE52D00A04CF6 /* CatTableViewCell.xib in Resources */,
+				2FC1652328BDC8DC00677E42 /* MainNavigation.storyboard in Resources */,
+				2FF2E4A528BF30C800A04CF6 /* BreedTableViewCell.xib in Resources */,
+				2FF2E4C428C07A9700A04CF6 /* BreedSavedTableViewCell.xib in Resources */,
+				2FF2E49C28BF001F00A04CF6 /* Breeds.storyboard in Resources */,
 				2FC164D628BDA6D800677E42 /* Assets.xcassets in Resources */,
-				2FC164D428BDA6D700677E42 /* Main.storyboard in Resources */,
+				2FC1652028BDBD7C00677E42 /* Cats.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +1422,80 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC164D128BDA6D700677E42 /* ViewController.swift in Sources */,
+				2FF2E49028BEE3A900A04CF6 /* Cat.swift in Sources */,
+				2FC1650528BDBB0F00677E42 /* NetworkingService.swift in Sources */,
+				2FC1651D28BDBC9F00677E42 /* UIStoryboard+Storyboards.swift in Sources */,
+				2FC1651728BDBC4E00677E42 /* JSONUtility.swift in Sources */,
+				2FC1650228BDBAE500677E42 /* CommonStrings.swift in Sources */,
+				2FC1650928BDBB7500677E42 /* Host.swift in Sources */,
+				2FF2E4A028BF2D5D00A04CF6 /* BreedsStrings.swift in Sources */,
+				2FC1651928BDBC5800677E42 /* StoryboardIdentifiable.swift in Sources */,
+				2FC1652928BDD00800677E42 /* CatsStrings.swift in Sources */,
+				2FF2E4AE28BF34DB00A04CF6 /* BreedClient.swift in Sources */,
 				2FC164CD28BDA6D700677E42 /* AppDelegate.swift in Sources */,
+				2FC1650C28BDBBC800677E42 /* Routable.swift in Sources */,
 				2FC164CF28BDA6D700677E42 /* SceneDelegate.swift in Sources */,
+				2FC1651B28BDBC9400677E42 /* UIStoryboard+StoryboardIdentifiable.swift in Sources */,
+				2375DB184B5ACE5B67942785 /* MainTabBarConfigurator.swift in Sources */,
+				5DBED20411CB5D5836628655 /* MainTabBarInitializer.swift in Sources */,
+				2C1C333576C2657E89698E93 /* MainTabBarInteractor.swift in Sources */,
+				2FF2E49A28BEF81600A04CF6 /* ErrorResponse.swift in Sources */,
+				2FF2E4B628C067EE00A04CF6 /* CoreDataManager.swift in Sources */,
+				7857ECB36A427CB9BB461EFC /* MainTabBarInteractorInput.swift in Sources */,
+				37E4E1BACE361E84D3E15B83 /* MainTabBarInteractorOutput.swift in Sources */,
+				2FF2E48C28BED05900A04CF6 /* CatTableViewCell.swift in Sources */,
+				3EC86A67C478F9E6082A8078 /* MainTabBarModuleInput.swift in Sources */,
+				21C24E9D32EC43A6FC0D2561 /* MainTabBarPresenter.swift in Sources */,
+				2FF2E4B828C069E800A04CF6 /* BreedData.swift in Sources */,
+				D689FF772B64CDAC97B50F41 /* MainTabBarRouter.swift in Sources */,
+				2FF2E49528BEF73100A04CF6 /* CatClient.swift in Sources */,
+				21658DF74CD2BB98589F6CFD /* MainTabBarRouterInput.swift in Sources */,
+				361E403FF60EFFEE72038E5A /* MainTabBarViewController.swift in Sources */,
+				2FF2E4B428C0674A00A04CF6 /* BreedDataModel.xcdatamodeld in Sources */,
+				02B0C1598A0B5B0C0DCACE4E /* MainTabBarViewInput.swift in Sources */,
+				A31665840DDC3AC71B7CB85E /* MainTabBarViewOutput.swift in Sources */,
+				6ADBF6E182407D7A59A431CB /* CatsHomeConfigurator.swift in Sources */,
+				2FF2E49728BEF73A00A04CF6 /* CatResource.swift in Sources */,
+				7673F4F7A62087598306B924 /* CatsHomeInitializer.swift in Sources */,
+				E89CA8294F0FE04C23157444 /* CatsHomeInteractor.swift in Sources */,
+				EE47C9BAC4AC49B2768A2CB7 /* CatsHomeInteractorInput.swift in Sources */,
+				F48CCAE8093DD2FEC7DA4738 /* CatsHomeInteractorOutput.swift in Sources */,
+				0EC8864F45C678A767F22034 /* CatsHomeModuleInput.swift in Sources */,
+				A137E5D2EAEE623256AEE9EA /* CatsHomePresenter.swift in Sources */,
+				2FF2E4A328BF306500A04CF6 /* BreedTableViewCell.swift in Sources */,
+				197A8E4063A7DAFB1245E6F1 /* CatsHomeRouter.swift in Sources */,
+				420DC8C219278C56E920CC90 /* CatsHomeRouterInput.swift in Sources */,
+				25F779072A23572E8F53FFB9 /* CatsHomeViewController.swift in Sources */,
+				CF351017E950670602A1D8AD /* CatsHomeViewInput.swift in Sources */,
+				4C0B9A129B4D723CD97AAF27 /* CatsHomeViewOutput.swift in Sources */,
+				62BD2D53FAF7C0F7EDC4C1BF /* BreedsHomeConfigurator.swift in Sources */,
+				2FF2E4A928BF31E500A04CF6 /* Breed.swift in Sources */,
+				5EE6D5C04FC420DA47B54B7D /* BreedsHomeInitializer.swift in Sources */,
+				D5BACFB8220E92B9A1E4CFE5 /* BreedsHomeInteractor.swift in Sources */,
+				5B43FEBC98A31A96C77C566A /* BreedsHomeInteractorInput.swift in Sources */,
+				2FF2E4B028BF34E200A04CF6 /* BreedResource.swift in Sources */,
+				FFA8854BC70F98C6DB87D024 /* BreedsHomeInteractorOutput.swift in Sources */,
+				310DB05588D65974D9CA92B0 /* BreedsHomeModuleInput.swift in Sources */,
+				2FF2E4AB28BF337900A04CF6 /* Image.swift in Sources */,
+				E6446C374EDC99B2180BD2B5 /* BreedsHomePresenter.swift in Sources */,
+				D57F45540FF46F819EB1B4C2 /* BreedsHomeRouter.swift in Sources */,
+				2BE6C1B60C13D7203687BB2B /* BreedsHomeRouterInput.swift in Sources */,
+				259987891C32934F4D4D5E72 /* BreedsHomeViewController.swift in Sources */,
+				36B0C115371EB3FA8083E311 /* BreedsHomeViewInput.swift in Sources */,
+				D48F365948849FDD2B23C5F5 /* BreedsHomeViewOutput.swift in Sources */,
+				D5DE7C8BE160F1D12EB08351 /* BreedSavedConfigurator.swift in Sources */,
+				152A250E176453657E600C86 /* BreedSavedInitializer.swift in Sources */,
+				0C65E6F6842B9B0C0BA523F7 /* BreedSavedInteractor.swift in Sources */,
+				6131C166D26FD696E21742FC /* BreedSavedInteractorInput.swift in Sources */,
+				6C28EEF303E4C46D698FE480 /* BreedSavedInteractorOutput.swift in Sources */,
+				2FF2E4C528C07A9700A04CF6 /* BreedSavedTableViewCell.swift in Sources */,
+				3309A08994BB4874C596F006 /* BreedSavedModuleInput.swift in Sources */,
+				0F26535E6A46E11476FB5A17 /* BreedSavedPresenter.swift in Sources */,
+				3C80591DA4A51D0D59E13B24 /* BreedSavedRouter.swift in Sources */,
+				C5098C3A06ADB37E25C3B58D /* BreedSavedRouterInput.swift in Sources */,
+				92691B1EED53CCFBD2241742 /* BreedSavedViewController.swift in Sources */,
+				13F0C7342B1374BE043EA9D2 /* BreedSavedViewInput.swift in Sources */,
+				A447F601FE96337069673721 /* BreedSavedViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +1513,31 @@
 			files = (
 				2FC164EE28BDA6D900677E42 /* TheCatUITests.swift in Sources */,
 				2FC164F028BDA6D900677E42 /* TheCatUITestsLaunchTests.swift in Sources */,
+				7C725DDEAA7BEF4581E92319 /* CatsConfiguratorTest.swift in Sources */,
+				3076A770E981FBB9D4D91DD8 /* CatsInteractorTest.swift in Sources */,
+				D0E82404F6A306742105C607 /* CatsRouterTest.swift in Sources */,
+				A2EBE9DDABE605FBC457C8C7 /* CatsPresenterTest.swift in Sources */,
+				173F752E0C3F53DA7E76F884 /* CatsViewTest.swift in Sources */,
+				AFFEF6B976ABB8AD56B8C240 /* MainTabBarConfiguratorTest.swift in Sources */,
+				993C9C218CA698EA6CDEA8D2 /* MainTabBarInteractorTest.swift in Sources */,
+				A160BC69163F77085EA05E11 /* MainTabBarRouterTest.swift in Sources */,
+				CACFB7BEF27C9CD5A6C1BDCF /* MainTabBarPresenterTest.swift in Sources */,
+				567A9E150840E96C1480D7F9 /* MainTabBarViewTest.swift in Sources */,
+				2579F6F94C4D130148F01482 /* CatsHomeConfiguratorTest.swift in Sources */,
+				05603ADB4F7CBDCA5EDC7476 /* CatsHomeInteractorTest.swift in Sources */,
+				A61622A67B307806791A2469 /* CatsHomeRouterTest.swift in Sources */,
+				494AACEE62180A1651C86EEF /* CatsHomePresenterTest.swift in Sources */,
+				74B0D26DC950F37CCD536E57 /* CatsHomeViewTest.swift in Sources */,
+				B04B2FB916BB722C918191E6 /* BreedsHomeConfiguratorTest.swift in Sources */,
+				22751FBACFCD1B7665B0FA91 /* BreedsHomeInteractorTest.swift in Sources */,
+				E2F8395A0187D85372097733 /* BreedsHomeRouterTest.swift in Sources */,
+				F78B656466A743A27606B761 /* BreedsHomePresenterTest.swift in Sources */,
+				867A5575DF3A11EDDB3A0767 /* BreedsHomeViewTest.swift in Sources */,
+				2DBD2765B8F9999F44618B47 /* BreedSavedConfiguratorTest.swift in Sources */,
+				6826F6239BE494B8C113A1F8 /* BreedSavedInteractorTest.swift in Sources */,
+				4283AA1AC3C0CCF8928915F5 /* BreedSavedRouterTest.swift in Sources */,
+				637F42933F9BBCF36AF11F19 /* BreedSavedPresenterTest.swift in Sources */,
+				8A28BF5F6603EA1D1A0C036D /* BreedSavedViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +1557,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2FC164D228BDA6D700677E42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FC164D328BDA6D700677E42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2FC164D728BDA6D800677E42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +1694,6 @@
 				INFOPLIST_FILE = TheCat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +1721,6 @@
 				INFOPLIST_FILE = TheCat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +1852,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2FC164FD28BDB04200677E42 /* TheCatNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TheCatNetworking;
+		};
+		2FC1652428BDCC1800677E42 /* TheCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TheCatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		2FF2E4B228C0674A00A04CF6 /* BreedDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FF2E4B328C0674A00A04CF6 /* CatDataModel.xcdatamodel */,
+			);
+			currentVersion = 2FF2E4B328C0674A00A04CF6 /* CatDataModel.xcdatamodel */;
+			path = BreedDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2FC164C128BDA6D700677E42 /* Project object */;
 }

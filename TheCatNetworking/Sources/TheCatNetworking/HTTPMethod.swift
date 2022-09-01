@@ -5,4 +5,10 @@
 //  Created by Carlos Alfredo Llerena Huayta on 29/08/22.
 //
 
-import Foundation
+public enum HTTPMethod: String {
+    
+    case delete
+    case get
+    case post
+    case patch
+}
