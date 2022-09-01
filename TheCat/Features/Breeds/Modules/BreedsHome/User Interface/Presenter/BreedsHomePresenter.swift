@@ -28,6 +28,7 @@ extension BreedsHomePresenter: BreedsHomeModuleInput {
 extension BreedsHomePresenter: BreedsHomeViewOutput {
 
     func viewIsReady() {
+        view.showActivityIndicatorView()
         interactor.getBreedsList()
     }
     
@@ -46,6 +47,11 @@ extension BreedsHomePresenter: BreedsHomeViewOutput {
 extension BreedsHomePresenter: BreedsHomeInteractorOutput {
 
     func didFetchBreeds(_ breedsList: [Breed]) {
+        view.hideActivityIndicatorView()
         view.setBreedList(breedsList)
+    }
+    
+    func didFailFetchBreeds() {
+        view.hideActivityIndicatorView()
     }
 }

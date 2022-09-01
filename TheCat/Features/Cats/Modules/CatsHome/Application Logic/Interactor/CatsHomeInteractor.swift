@@ -19,8 +19,21 @@ class CatsHomeInteractor: CatsHomeInteractorInput {
     func getCatsList() {
         catClient.catList()
             .receive(on: DispatchQueue.main)
-            .sink(receiveCompletion: { _ in },
-                  receiveValue: { [weak self] response in
+            .sink(receiveCompletion: { [weak self] completion in
+                switch completion {
+                case .failure(let networkingError):
+                    switch networkingError {
+                    case .notConnectionInternet(_):
+                        self?.output.didFailFetchCats()
+                    case .unexpectedError(_):
+                        self?.output.didFailFetchCats()
+                    default:
+                        self?.output.didFailFetchCats()
+                    }
+                default:
+                    break
+                }
+            }, receiveValue: { [weak self] response in
                 self?.output.didFetchCats(response)
             }).store(in: &cancellables)
     }

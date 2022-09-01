@@ -7,5 +7,7 @@
 //
 
 protocol BreedsHomeInteractorOutput: AnyObject {
+
     func didFetchBreeds(_ breedsList: [Breed])
+    func didFailFetchBreeds()
 }

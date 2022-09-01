@@ -11,4 +11,6 @@ protocol CatsHomeViewInput: AnyObject {
     func setUpInitialState()
     func moduleInput() -> CatsHomeModuleInput
     func setCatsList(_ catsList: [Cat])
+    func showActivityIndicatorView()
+    func hideActivityIndicatorView()
 }

@@ -28,6 +28,7 @@ extension CatsHomePresenter: CatsHomeModuleInput {
 extension CatsHomePresenter: CatsHomeViewOutput {
 
     func viewIsReady() {
+        view.showActivityIndicatorView()
         interactor.getCatsList()
     }
 }
@@ -38,6 +39,11 @@ extension CatsHomePresenter: CatsHomeViewOutput {
 extension CatsHomePresenter: CatsHomeInteractorOutput {
 
     func didFetchCats(_ catsList: [Cat]) {
+        view.hideActivityIndicatorView()
         view.setCatsList(catsList)
+    }
+    
+    func didFailFetchCats() {
+        view.hideActivityIndicatorView()
     }
 }

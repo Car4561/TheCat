@@ -85,7 +85,7 @@ extension BreedsHomeViewController: BreedTableViewCellCellDelegate {
 
 // MARK: BreedsHomeViewInput Methods
 
-extension BreedsHomeViewController: BreedsHomeViewInput {
+extension BreedsHomeViewController: BreedsHomeViewInput, TCActivityIndicatorPresentable {
 
     func setUpInitialState() {
     }
@@ -96,5 +96,13 @@ extension BreedsHomeViewController: BreedsHomeViewInput {
     
     func setBreedList(_ breedList: [Breed]) {
         self.breedsList = breedList
+    }
+
+    func showActivityIndicatorView() {
+        showTCActivityIndicatorView()
+    }
+    
+    func hideActivityIndicatorView() {
+        hideTCActivityIndicatorView()
     }
 }

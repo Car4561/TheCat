@@ -19,8 +19,21 @@ class BreedsHomeInteractor: BreedsHomeInteractorInput {
     func getBreedsList() {
         breedClient.breedList()
             .receive(on: DispatchQueue.main)
-            .sink(receiveCompletion: { _ in },
-                  receiveValue: { [weak self] response in
+            .sink(receiveCompletion: { [weak self] completion in
+                switch completion {
+                case .failure(let networkingError):
+                    switch networkingError {
+                    case .notConnectionInternet(_):
+                        self?.output.didFailFetchBreeds()
+                    case .unexpectedError(_):
+                        self?.output.didFailFetchBreeds()
+                    default:
+                        self?.output.didFailFetchBreeds()
+                    }
+                default:
+                    break
+                }
+            }, receiveValue: { [weak self] response in
                 self?.output.didFetchBreeds(response)
             }).store(in: &cancellables)
     }

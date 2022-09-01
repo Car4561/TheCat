@@ -67,7 +67,7 @@ extension CatsHomeViewController: UITableViewDelegate, UITableViewDataSource {
 
 // MARK: CatsHomeViewInput Methods
 
-extension CatsHomeViewController: CatsHomeViewInput {
+extension CatsHomeViewController: CatsHomeViewInput, TCActivityIndicatorPresentable {
 
     func setUpInitialState() {
     }
@@ -78,5 +78,13 @@ extension CatsHomeViewController: CatsHomeViewInput {
     
     func setCatsList(_ catsList: [Cat]) {
         self.catsList = catsList
+    }
+    
+    func showActivityIndicatorView() {
+        showTCActivityIndicatorView()
+    }
+    
+    func hideActivityIndicatorView() {
+        hideTCActivityIndicatorView()
     }
 }

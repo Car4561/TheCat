@@ -11,4 +11,6 @@ protocol BreedsHomeViewInput: AnyObject {
     func setUpInitialState()
     func moduleInput() -> BreedsHomeModuleInput
     func setBreedList(_ breedList: [Breed])
+    func showActivityIndicatorView()
+    func hideActivityIndicatorView()
 }
